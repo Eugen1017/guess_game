@@ -92,7 +92,7 @@ def game_cycle():
             attempts -= 1
             continue
 
-    print("Нажаль у тебе закінчилися спроби\nДо зустрічі!")
+    print(Fore.LIGHTGREEN_EX + "Нажаль у тебе закінчилися спроби\nДо зустрічі!")
 
 
 
