@@ -28,7 +28,7 @@ def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def get_random_number(hard_option):
-    return randint(1, pow(10, hard_option))
+    return randint(1, pow(10, hard_option) - 1)
 
 def game_cycle():
 
